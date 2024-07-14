@@ -58,6 +58,7 @@ namespace combo_test.VM
         public ObservableCollection<Mokomoko> Mokomokos { get; set; }
         /// <summary>
         /// もこもこの種類
+        /// <!-- かんどころ(4) ここに{get; set;}がないとダメ！ -->
         /// </summary>
         public static ObservableCollection<string> MokoTypeList { get; set; } = new()
         {

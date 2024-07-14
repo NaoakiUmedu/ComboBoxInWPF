@@ -20,7 +20,7 @@
             <DataGrid.Columns>
                 <DataGridTextColumn Header="おなまえ" Binding="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
                 <!-- かんどころ2 ItemSourceに上で宣言したリソースを指定 -->
-                <!-- かんどころ3 SelectedValueBindingにバインドしたいメンバを指定 -->
+                <!-- かんどころ3 SelectedValueBindingにバインドたいメンバを指定 -->
                 <DataGridComboBoxColumn Header="しゅるい" ItemsSource="{Binding Source={StaticResource MokoResource}}" SelectedValueBinding="{Binding MokoType}" />
             </DataGrid.Columns>
         </DataGrid>
